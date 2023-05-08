@@ -66,7 +66,7 @@ const database = {
     },
     {
       id: 9,
-      name: "Info",
+      name: "Information",
     },
     {
       id: 10,
