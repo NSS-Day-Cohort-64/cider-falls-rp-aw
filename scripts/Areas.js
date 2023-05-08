@@ -5,7 +5,7 @@
 
 /* Add a click event listener that displays the number of guests at each area
    when the area name is clicked */
-   document.addEventListener(
+document.addEventListener(
     "click",
     (clickEvent) => {
         const itemClicked = clickEvent.target
