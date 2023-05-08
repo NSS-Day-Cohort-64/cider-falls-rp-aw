@@ -3,8 +3,27 @@
 
 // Store copy of areas, services, supportedServices, and guests
 
+/* Add a click event listener that displays the number of guests at each area
+   when the area name is clicked */
+   document.addEventListener(
+    "click",
+    (clickEvent) => {
+        const itemClicked = clickEvent.target
+        // Check if item clicked is an area list item
+        if (itemClicked.dataset.type === 'area') {
+            // Set a default counter
 
+            // Iterate through guests array
 
+                // Check if guest.areaId foreign key matches the id of the clicked area
+
+                    // Add +1 to the counter
+
+            // Make an alert that says `There are ${counter} guests in this area`
+
+        }
+    }
+)
 
 /* Define a function called findServices that takes in one area and the supportedServices array,
    and returns an array of the matching service bridges. */
