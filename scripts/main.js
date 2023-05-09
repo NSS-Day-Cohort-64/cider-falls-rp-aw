@@ -10,6 +10,7 @@ ${serviceList()}
 </section>
 <div class="areas_and_guests">
 <section class="areas">
+
 ${areaList()}
 </section>
 <aside class="guestlist">
