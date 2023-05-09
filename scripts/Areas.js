@@ -72,10 +72,12 @@ const findServicesForThisArea = (supportedServiceObject, servicesArray) => {
 /* Define and export a function that builds an HTML list of area names 
 and their provided services. */
 export const areaList = () => {
-  // Define html string with <div> opening tag
-  let areahtml = "<div>";
+  let areahtml = `<h2 class="areas--h2">Areas</h2>
+  <div class="areas_flex">`
   // Iterate through areas array (for area of areas)
   for (const area of areas) {
+    // Append html string with <div> opening tag
+    areahtml += `<div class="areas--div">`;
     // Define empty array that will hold the services for each area called servicesForThisArea
     let servicesForThisArea = [];
     // invoke and store findSupportedServices(area, supportedServices) as serviceMatches
@@ -88,18 +90,19 @@ export const areaList = () => {
       servicesForThisArea.push(addService);
     }
     // Append html string with the main attraction name and data attributes for type and id <h3></h3>
-    areahtml += `<h3 data-type="area" data-id="${area.id}">${area.mainAttraction}</h3>`;
+    areahtml += `<h3 class="area--h3" data-type="area" data-id="${area.id}">${area.mainAttraction}</h3>`;
     // Append html string with <ul> tag
-    areahtml += "<ul>";
+    areahtml += `<ul class="area--ul">`;
     // Iterate through the servicesForThisArea array
     for (const service of servicesForThisArea) {
       // Append html with each service as a <li></li>
-      areahtml += `<li>${service}</li>`;
+      areahtml += `<li class="area--li">${service}</li>`;
     }
+    // Append html string with </ul>
     areahtml += `</ul>`
+    areahtml += "</div>";
   }
-  // Append html string with </ul>
-  areahtml += "</div>";
+  areahtml += `</div>`
   // Return html string
   return areahtml;
 };

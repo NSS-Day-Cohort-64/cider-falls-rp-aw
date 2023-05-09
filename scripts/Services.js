@@ -70,7 +70,7 @@ document.addEventListener(
    The services will need data attributes for type, id, and name. */
 export const serviceList = () => {
    // Set a default html list with <ul> opening tag
-   let serviceHTML = `<ul>`
+   let serviceHTML = `<ul class="service--ul">`
    // Iterate through services array
    for (let service of services) {
       // Append html with list item of each service name and data attributes for type, id, and name
