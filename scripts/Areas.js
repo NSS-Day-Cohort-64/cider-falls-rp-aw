@@ -60,7 +60,7 @@ const findServicesForThisArea = (supportedServiceObject, servicesArray) => {
   // Iterate through the services array
   for (const service of servicesArray) {
     // Check if supportedServiceObject.serviceId === service.id
-    if (supportedServiceObject.serviceId === service.id) {
+    if (supportedServiceObject.serviceID === service.id) {
       // set string equal to service.description
       addService = service.name;
       // Return string
@@ -96,9 +96,10 @@ export const areaList = () => {
       // Append html with each service as a <li></li>
       areahtml += `<li>${service}</li>`;
     }
+    areahtml += `</ul>`
   }
   // Append html string with </ul>
-  areahtml += "</ul>";
+  areahtml += "</div>";
   // Return html string
   return areahtml;
 };
