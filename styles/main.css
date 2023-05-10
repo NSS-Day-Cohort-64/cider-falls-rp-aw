@@ -139,6 +139,7 @@ body {
 @media screen and (max-width: 673px) {
     .areas_and_guests {
         display: block;
+        padding-bottom: 1em;
     }
     .areas {
         width: 100%;
@@ -180,5 +181,31 @@ body {
     .service--li {
         width: 45%;
         font-size: 0.75em;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 950px) {
+    .pageHeader {
+        background-image: url("../images/hero.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        color: rgb(239, 238, 238);
+        text-shadow: -1px 1px 3px rgb(38, 52, 52);
+        height: 82.5vh;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+    .pageHeader {
+        background-image: url("../images/hero.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        color: rgb(239, 238, 238);
+        text-shadow: -1px 1px 3px rgb(38, 52, 52);
+        height: 60vh;
     }
 }
