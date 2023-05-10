@@ -104,9 +104,16 @@ body {
 .areas--div {
     /* border: 1px dashed green; */
     flex-basis: calc(95% / 3);
-    background-color: #daf0a8;
+    background-color: rgb(151, 150, 150);
     border-radius: 10px;
     box-shadow: -2px 2px 4px darkslategray;
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: rgb(239, 238, 238);
+    text-shadow: -1px 1px 3px rgb(38, 52, 52);
 }
 
 .area--ul {
