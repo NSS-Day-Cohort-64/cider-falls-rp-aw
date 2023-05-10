@@ -73,7 +73,7 @@ const findServicesForThisArea = (supportedServiceObject, servicesArray) => {
 
 export const areaList = () => {
   let areahtml = `<h2 class="areas--h2">Areas</h2>
-  <div class="areas_flex">`
+    <div class="areas_flex">`
   // Iterate through areas array (for area of areas)
   for (const area of areas) {
     // Append html string with <div> opening tag
@@ -92,7 +92,7 @@ export const areaList = () => {
     // Append html string with the main attraction name and data attributes for type and id <h3></h3>
     areahtml += `<h3 class="area--h3" data-type="area" data-id="${area.id}">${area.mainAttraction}</h3>`;
     // Append html string with <ul> tag
-    areahtml += `<ul class="area--ul">`;
+    areahtml += `<h4 class="areas--h4">Services Offered</h4><ul class="area--ul">`;
     // Iterate through the servicesForThisArea array
     for (const service of servicesForThisArea) {
       // Append html with each service as a <li></li>
