@@ -84,6 +84,11 @@ body {
     /*border: 1px dashed purple;*/
 }
 
+.areas--h4 {
+    text-align: left;
+    margin-left: 1em;
+}
+
 .areas_flex {
     display: flex;
     flex-wrap: wrap;
