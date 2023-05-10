@@ -77,7 +77,7 @@ export const areaList = () => {
   // Iterate through areas array (for area of areas)
   for (const area of areas) {
     // Append html string with <div> opening tag
-    areahtml += `<div class="areas--div">`;
+    areahtml += `<div class="areas--div" style="--bg-image: url(${area.image})">`;
     // Define empty array that will hold the services for each area called servicesForThisArea
     let servicesForThisArea = [];
     // invoke and store findSupportedServices(area, supportedServices) as serviceMatches
