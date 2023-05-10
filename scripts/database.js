@@ -4,37 +4,37 @@ const database = {
       id: 1,
       region: "Northeast",
       mainAttraction: "Chamfort River",
-      image: "../images/chamfort-river.jpg"
+      image: "../images/chamfort-river.webp"
     },
     {
       id: 2,
       region: "North",
       mainAttraction: "Lost Wolf Hiking Trail",
-      image: "../images/lost-wolf.jpg"
+      image: "../images/lost-wolf.webp"
     },
     {
       id: 3,
       region: "Northwest",
       mainAttraction: "Lodge",
-      image: "../images/lodge.jpg"
+      image: "../images/lodge.webp"
     },
     {
       id: 4,
       region: "Southwest",
       mainAttraction: "Gander River",
-      image: "../images/gander-river.jpg"
+      image: "../images/gander-river.webp"
     },
     {
       id: 5,
       region: "South",
       mainAttraction: "Campgrounds",
-      image: "../images/campground.jpg"
+      image: "../images/campground.webp"
     },
     {
       id: 6,
       region: "Southeast",
       mainAttraction: "Pine Puff Trails",
-      image: "../images/pine-puff.jpg"
+      image: "../images/pine-puff.webp"
     },
   ],
   services: [

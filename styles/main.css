@@ -207,7 +207,7 @@ body {
 
 @media screen and (min-width: 950px) {
     .pageHeader {
-        background-image: url("../images/hero.jpg");
+        background-image: url("../images/hero.webp");
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -224,7 +224,7 @@ body {
 
 @media screen and (min-width: 650px) and (max-width: 950px) {
     .pageHeader {
-        background-image: url("../images/hero.jpg");
+        background-image: url("../images/hero.webp");
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
