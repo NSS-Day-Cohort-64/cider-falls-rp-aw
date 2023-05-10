@@ -67,6 +67,11 @@ body {
     width: 20%;
 }
 
+.service_highlight:hover {
+    color: darkmagenta;
+    text-shadow: -1px 1px 3px rgb(38, 52, 52);
+}
+
 .areas_and_guests {
     display: flex;
     /*border: 1px dashed goldenrod;*/
@@ -114,6 +119,14 @@ body {
     background-blend-mode: multiply;
     color: rgb(239, 238, 238);
     text-shadow: -1px 1px 3px rgb(38, 52, 52);
+}
+
+.area_grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.area_grow:hover { 
+    transform: scale(1.025); 
 }
 
 .area--ul {

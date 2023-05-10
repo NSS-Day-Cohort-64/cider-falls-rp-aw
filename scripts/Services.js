@@ -74,7 +74,7 @@ export const serviceList = () => {
    // Iterate through services array
    for (let service of services) {
       // Append html with list item of each service name and data attributes for type, id, and name
-      serviceHTML += `<li class="service--li" data-type="service"
+      serviceHTML += `<li class="service--li service_highlight" data-type="service"
       data-id="${service.id}"
       data-name="${service.name}"
       >${service.name}</li>`
