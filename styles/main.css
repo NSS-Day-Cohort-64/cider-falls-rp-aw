@@ -191,6 +191,12 @@ body {
 
 /*-------------------------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1800px) {
+    .areas {
+        width: 80%;
+    }
+}
+
 @media screen and (min-width: 950px) {
     .pageHeader {
         background-image: url("../images/hero.jpg");
@@ -200,6 +206,11 @@ body {
         color: rgb(239, 238, 238);
         text-shadow: -1px 1px 3px rgb(38, 52, 52);
         height: 82.5vh;
+    }
+
+    .guestlist {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
