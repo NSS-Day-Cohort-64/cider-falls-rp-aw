@@ -121,14 +121,6 @@ body {
     text-shadow: -1px 1px 3px rgb(38, 52, 52);
 }
 
-.area_grow { 
-    transition: all .2s ease-in-out; 
-}
-    
-.area_grow:hover { 
-    transform: scale(1.025); 
-}
-
 .area--ul {
     text-align: left;
 }
@@ -244,5 +236,15 @@ body {
         color: rgb(239, 238, 238);
         text-shadow: -1px 1px 3px rgb(38, 52, 52);
         height: 60vh;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .area_grow { 
+        transition: all .2s ease-in-out; 
+    }
+        
+    .area_grow:hover { 
+        transform: scale(1.025); 
     }
 }
